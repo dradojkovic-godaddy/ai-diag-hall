@@ -1,0 +1,14 @@
+{
+  "name": "minimal-node-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Bare-bones Node.js HTTP server",
+  "type": "module",
+  "scripts": {
+    "build": "node --check server.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
