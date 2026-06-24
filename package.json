@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "description": "Bare-bones Node.js HTTP server",
   "type": "module",
+  "main": "server.js",
   "scripts": {
     "build": "node --check server.js",
     "start": "node server.js"
